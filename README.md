@@ -16,7 +16,7 @@
 - 🏠 **Gerenciamento de Reservas do Proprietário**: Permite que os proprietários gerenciem suas listagens e reservas.
 - 🔍 **Pesquisa Avançada de Casas**: Pesquise por localização, data, número de hóspedes, quantidade de camas, entre outros critérios.
 - 🔐 **Autenticação e Autorização Segura**: Utilizando Auth0 para garantir um gerenciamento robusto de funções e permissões.
-- 🏢 **Design Baseado em Domínio**: Implementação de DDD para uma arquitetura modular e escalável.
+- 🏢 **Domain-driven design**: Implementação de DDD para uma arquitetura modular e escalável.
 
 ## Novidades do Projeto
 
