@@ -1,27 +1,27 @@
-# AirbnbCloneFront
+# 🏡 Clone do Airbnb (Em desenvolvimento)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.0.
+🚀 Bem-vindo ao projeto de clone do Airbnb! Este projeto visa replicar algumas das funcionalidades principais do Airbnb utilizando tecnologias modernas e eficientes.
 
-## Development server
+## Tecnologias Utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Back-end**: Spring Boot 3, Java 21
+- **Front-end**: Angular 17
+- **UI**: PrimeNG, Prime Flex, font awesome
+- **Banco de Dados**: PostgreSQL
+- **Autenticação**: Auth0 (OAuth2)
 
-## Code scaffolding
+## Principais Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- 📅 **Gerenciamento de Reservas para Viajantes**: Permite que os usuários façam e gerenciem reservas de estadias.
+- 🏠 **Gerenciamento de Reservas do Proprietário**: Permite que os proprietários gerenciem suas listagens e reservas.
+- 🔍 **Pesquisa Avançada de Casas**: Pesquise por localização, data, número de hóspedes, quantidade de camas, entre outros critérios.
+- 🔐 **Autenticação e Autorização Segura**: Utilizando Auth0 para garantir um gerenciamento robusto de funções e permissões.
+- 🏢 **Design Baseado em Domínio**: Implementação de DDD para uma arquitetura modular e escalável.
 
-## Build
+## Novidades do Projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Neste projeto, foi amplamente utilizado:
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- **Standalone Components**: Facilita a reutilização e a modularidade dos componentes no Angular.
+- **Signals**: Uma abordagem reativa avançada para gerenciar estados no Angular.
+- **Novo Fluxo de Controle do Angular**: Implementações mais eficientes para gerenciamento de fluxo de dados.
