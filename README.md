@@ -25,3 +25,16 @@ Neste projeto, foi amplamente utilizado:
 - **Standalone Components**: Facilita a reutilização e a modularidade dos componentes no Angular.
 - **Signals**: Uma abordagem reativa avançada para gerenciar estados no Angular.
 - **Novo Fluxo de Controle do Angular**: Implementações mais eficientes para gerenciamento de fluxo de dados.
+
+## Uso
+### Pré-requisitos
+- [NodeJS 20.11 LTS](https://nodejs.org/dist/v20.11.1/node-v20.11.1.pkg)
+- [Angular CLI v17](https://www.npmjs.com/package/@angular/cli)
+- IDE ([VSCode](https://code.visualstudio.com/download), [IntelliJ](https://www.jetbrains.com/idea/download/))
+
+### Dependências
+``npm install``
+
+### Iniciar servidor de desenvolvimento
+Run `ng serve` para um servidor de desenvolvimento. Navegue até `http://localhost:4200/`.
+
