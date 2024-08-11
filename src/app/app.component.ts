@@ -1,13 +1,13 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
+import { FaIconLibrary, FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ButtonModule } from 'primeng/button';
 import { fontAwesomeIcons } from './shared/font-awesome-icons';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, FontAwesomeModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
