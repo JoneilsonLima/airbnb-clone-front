@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "assets/scss/airbnb-fonts";
+@import "assets/scss/airbnb-variables";
+@import "assets/scss/lara-light/blue/theme";
+@import "primeng/resources/primeng";
+@import "primeflex/primeflex";
+
+/* Order */
+@layer reset, primeng;
+
+/* Reset CSS */
+@layer reset {
+  .p-dialog {
+    border-radius: 0 0 $dialogBorderRadius $dialogBorderRadius;
+  }
+}
